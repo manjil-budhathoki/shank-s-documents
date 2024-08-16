@@ -1,0 +1,105 @@
+
+## google classroom ID: asonvlw
+
+1. components should start with Capital.
+2. external css should be deined outside and has three different steps.
+3. should be call with angular brackets
+4. tag are of two types which are html tags and our customed tag which can be called as compoenet.
+
+Component:
+1. 
+
+
+
+React must must only one wrapper
+
+
+Component
+    it is a function whose first letter is capital
+    call it just like calling htmlTag
+    it is a custom tag
+
+Css
+    inline css
+    external css
+        external file  (css)
+        import at index.js
+        use
+
+        product.css
+            .card
+                width:200px
+                height :200px
+                border
+
+How to perform Js operation iside tag
+    use {}
+
+Boolean property
+    Boolean are not displayed on browser.
+
+Array element:
+  Array elemenet are placed one after another
+
+object element
+  object elements cannot be printed one after another.
+  erro: object are not valid as react child
+
+what is printed on browser ?
+ Content which is written inside return are printed on browser
+
+
+
+
+---> so in general we are just defining new tags.
+
+---> index.js is our main component
+
+---> file mixed with ms and html is called jsx
+---> react is enhanced in such a way js files are also recognized as jsx. So only the logo is changed.
+
+
+--------------- JSX --------------------------
+
+
+JSX (JavaScript XML) is a syntax extension for JavaScript used in 
+React to describe the UI elements. It looks similar to HTML but
+allows you to write HTML elements directly within JavaScript, 
+making it easy to define the structure and appearance of the user interface.
+
+-- components name should be capital
+
+curly braces for performing operation inside any tags.
+
+
+""
+
+import logo from './logo.svg';
+import './App.css';
+import Info1 from './Info1';
+
+function App() {
+ 
+  return (
+    <div >
+      <Info1></Info1>  # the component can be imported by placing the text start <Info1(in this part)></Info> and typing ctrl + space
+    </div>
+  );
+}
+
+
+export default App;
+
+""
+---> Booleans cannot be displayed in browser.
+
+---> html tags are data which can be stored in variables in JS.
+
+
+# if a coponenet is started with small letter than
+ the import cannot be done, and also if we rename 
+ the the file name to capital.
+
+# then we can have to create a new file, the file with same name will pose the same problem.
+
+

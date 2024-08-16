@@ -1,0 +1,13 @@
+Component:
+            Component is a function whose first letter is capital.
+            it is made so that our tag does not overwrite with html  tag call componet like calling html tag(eg div, p, ...)
+            component is a custom tag.
+
+            componet must have only one wrapper.
+
+
+HTML Tag:
+
+        You can treat hmtl tags ( div,p..) as a  data,
+        it means you can return it or you can savve tag to variable.
+            

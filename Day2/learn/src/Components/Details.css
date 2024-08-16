@@ -1,0 +1,115 @@
+.details-container {
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-top: 30px; /* Add spacing */
+}
+
+.details-header {
+  background-color: #2979ff; /* Updated blue color */
+  color: white;
+  padding: 20px 30px; /* Increased padding */
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  width: 100%;
+  transition: background-color 0.3s ease; 
+}
+
+.details-header:hover {
+  background-color: #0d47a1; /* Darker blue on hover */
+}
+
+.details-title {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600; 
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+}
+
+.arrow.open {
+  transform: rotate(180deg);
+}
+
+.details-content {
+  padding: 20px 30px;
+  background-color: #f9f9f9;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+.details-content.open {
+  max-height: 1000px; 
+  opacity: 1;
+}
+
+.content-section {
+  margin-bottom: 25px;
+}
+
+.section-title {
+  color: #333;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.details-content ul {
+  list-style-type: disc;
+  padding-left: 40px;
+  color: #555;
+}
+
+.dark-mode-toggle { 
+  background-color: #444; 
+  color: white;
+  border: none;
+  padding: 12px 18px; /* Adjusted padding */
+  border-radius: 6px;  /* Larger border radius */
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+  font-family: 'Roboto', sans-serif; /* Consistent font */
+}
+
+.dark-mode-toggle:hover {
+  background-color: #666; 
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: #121212; /* Darker background */
+  color: #e0e0e0;            /* Lighter text */
+}
+
+.dark-mode .details-header {
+  background-color: #303f9f; /* Darker blue header */
+}
+
+.dark-mode .details-header:hover {
+  background-color: #1a237e; /* Even darker blue on hover */
+}
+
+.dark-mode .details-content {
+  background-color: #212121; /* Darker content background */
+}
+
+.dark-mode .section-title {
+  color: #f5f5f5;           /* Lighter title text */
+  border-bottom-color: #424242; /* Darker line color */
+}
+
+.dark-mode .details-content ul {
+  color: #bdbdbd;           /* Lighter list item color */
+}
